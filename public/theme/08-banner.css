@@ -1,0 +1,131 @@
+/* Banner de cabecera. Reemplaza al Revolution Slider (406KB de JS) para los
+   13 banners que son de un solo slide.
+
+   El original posiciona todo sobre una grilla de diseño de 1175x500: debajo
+   de ese ancho escala en proporción, y arriba la grilla se centra a tamaño
+   fijo. Eso se reproduce con una unidad de escala --u:
+
+     --u = min(1px, 100cqw/1175)
+
+   Así las coordenadas de cada capa se escriben en píxeles de grilla y la
+   unidad se encarga del resto, sin media queries ni JavaScript. */
+
+.ab-module {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1175 / 500;   /* junto con max-height da min(500, ancho*0.4255) */
+  max-height: 500px;
+  overflow: hidden;
+  container-type: inline-size;
+  --u: min(1px, 0.0851064cqw);
+}
+
+/* La foto se recorta, no se deforma. El original la sirve con
+   data-bg="p:right center", que en RevSlider significa cubrir la caja
+   manteniendo la proporción y anclar a la derecha. Con object-fit:fill la
+   imagen quedaba estirada y el encuadre no coincidía. */
+.ab-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  display: block;
+}
+
+.ab-grid {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: calc(1175 * var(--u));
+  margin-left: calc(-587.5 * var(--u));
+  height: calc(500 * var(--u));
+}
+
+.ab-layer {
+  position: absolute;
+  left: calc(var(--x) * var(--u));
+  top: calc(var(--y) * var(--u));
+  width: calc(var(--w) * var(--u));
+  height: calc(var(--h) * var(--u));
+  font-size: calc(var(--fs) * var(--u));
+  line-height: 1.2;
+  white-space: pre-line;   /* el original corta los títulos con salto de línea */
+  display: flex;
+  align-items: center;
+}
+
+/* Entrada del banner.
+
+   Los tiempos salen de grabar el original cuadro a cuadro, no de inventarlos.
+   Medido sobre el momento en que aparece la foto:
+
+     fondo    aparece DE GOLPE, sin fundido   <- esto es lo que más se nota
+     formas   +43ms,  fundido de 160ms        (recuadro amarillo, bloque blanco)
+     textos   +543ms, fundido de 150ms        (la pausa larga es la clave)
+
+   Los 500ms que separan formas de textos no son una medición aproximada: es
+   el "st:500" que el propio slider declara en data-frame_1 de las capas de
+   texto.
+
+   La curva del original es lineal: llega al 50% de opacidad al 47% del
+   tiempo. Con "ease" se sentía blanda y arrancaba distinto.
+
+   En el original todo esto pasa recién a los ~730ms, porque hasta ahí el
+   slider no terminó de inicializarse y el banner está en blanco. Eso no se
+   replica a propósito: sería dejar un hueco vacío casi un segundo cuando acá
+   la foto ya está lista en el primer cuadro. Se conserva el ritmo, no la
+   espera.                                                                  */
+@media (prefers-reduced-motion: no-preference) {
+  .ab-layer { animation: ab-in 160ms linear both; animation-delay: 40ms }
+  .ab-layer[data-tipo="texto"] { animation-duration: 150ms; animation-delay: 540ms }
+  @keyframes ab-in { from { opacity: 0 } to { opacity: 1 } }
+}
+
+/* Galería de servicios. Reemplaza al único carrusel real del sitio.
+   La proporción sale de medir el original: 399x239, 307x184, 231x139. */
+.sc-galeria { width: 100% }
+.sc-marco { position: relative; width: 100%; aspect-ratio: 1.669; overflow: hidden }
+.sc-foto {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: fill;            /* el original deforma para llenar */
+  transition: opacity .5s ease;
+}
+@media (prefers-reduced-motion: reduce) { .sc-foto { transition: none } }
+.sc-ampliar {
+  position: absolute; right: 8px; bottom: 8px; z-index: 2;
+  font: 300 12px/1 Roboto, sans-serif; color: #fff;
+  background: rgba(0,0,0,.6); border: 0; padding: 7px 11px; cursor: pointer;
+}
+.sc-ampliar:hover { background: rgba(0,0,0,.8) }
+/* Los puntos van SOBRE la foto, centrados abajo, como en el original.
+   Puestos debajo agregaban 44px de alto al bloque en cada página. */
+.sc-puntos {
+  position: absolute; left: 0; right: 0; bottom: 10px; z-index: 2;
+  display: flex; gap: 7px; justify-content: center;
+}
+.sc-punto {
+  width: 9px; height: 9px; border-radius: 50%; padding: 0; cursor: pointer;
+  background: rgba(0, 0, 0, .25); border: 1px solid rgba(255, 255, 255, .85);
+}
+.sc-punto.activo { background: #fff }
+.sc-lightbox {
+  position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,.85);
+  display: grid; place-items: center; padding: 24px;
+}
+.sc-lightbox img { max-width: 100%; max-height: 100%; object-fit: contain }
+.sc-cerrar {
+  position: absolute; top: 12px; right: 18px; font-size: 34px; line-height: 1;
+  color: #fff; background: none; border: 0; cursor: pointer;
+}
+
+/* Las imágenes se sirven con <picture> + WebP y el original como fallback.
+   display:contents hace que el envoltorio no genere caja, así la <img> se
+   comporta en el layout igual que cuando estaba suelta. */
+picture { display: contents }
+
+/* Párrafo vacío que WordPress inserta antes de cada slider. rs6.css lo
+   neutralizaba; como esa hoja no se porta, quedaba aportando su margen por
+   defecto y corría la galería 11px hacia abajo. */
+p.rs-p-wp-fix { margin: 0; padding: 0; display: none }

@@ -1,0 +1,92 @@
+/* Contacto directo: reemplaza al formulario de Contact Form 7 en /contacto/
+   y /en/contact/. Dos tarjetas, mail y WhatsApp, con los colores del logo
+   (verde #006834, amarillo #fccc00). */
+
+.contacto-directo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  text-align: left;
+}
+
+.contacto-directo .cd-tarjeta {
+  flex: 1 1 260px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 22px;
+  background: #fff;
+  border: 1px solid #e2e5e0;
+  border-left: 3px solid #fccc00;
+  border-radius: 6px;
+  color: #161922;
+  text-decoration: none;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+.contacto-directo .cd-tarjeta:hover,
+.contacto-directo .cd-tarjeta:focus-visible {
+  border-color: #006834;
+  box-shadow: 0 8px 24px rgba(0, 104, 52, .12);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.contacto-directo .cd-tarjeta:focus-visible { outline: 2px solid #006834; outline-offset: 2px }
+
+.contacto-directo .cd-icono {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #fff;
+  background: #006834;
+}
+.contacto-directo .cd-whatsapp .cd-icono { background: #25d366 }
+
+.contacto-directo .cd-texto {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.contacto-directo .cd-titulo {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #6b7069;
+}
+.contacto-directo .cd-dato {
+  font-size: 17px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #161922;
+  overflow-wrap: break-word;
+}
+
+.contacto-directo .cd-flecha {
+  flex: none;
+  font-size: 20px;
+  color: #006834;
+  transition: transform .2s;
+}
+.contacto-directo .cd-tarjeta:hover .cd-flecha { transform: translateX(4px) }
+
+/* celular: la flecha le saca lugar al mail, que es lo que importa leer */
+@media (max-width: 479px) {
+  .contacto-directo .cd-tarjeta { padding: 16px; gap: 14px }
+  .contacto-directo .cd-icono { width: 42px; height: 42px }
+  .contacto-directo .cd-flecha { display: none }
+  .contacto-directo .cd-titulo { font-size: 11px; letter-spacing: .04em }
+  .contacto-directo .cd-dato { font-size: 16px }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contacto-directo .cd-tarjeta,
+  .contacto-directo .cd-flecha { transition: none }
+  .contacto-directo .cd-tarjeta:hover,
+  .contacto-directo .cd-tarjeta:hover .cd-flecha { transform: none }
+}

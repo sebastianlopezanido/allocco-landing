@@ -1,0 +1,12 @@
+/* El tooltip titilaba en Argentina y Brasil: sus imágenes de clientes son las
+   más grandes (500 y 600px), el tooltip queda debajo del cursor, tapa el país,
+   GeoChart lo toma como que el mouse salió y lo esconde, el país vuelve a
+   quedar bajo el cursor y lo muestra otra vez: ~18 veces por segundo.
+
+   El propio plugin trae este arreglo comentado en map-02-styles.css ("to
+   prevent blinking when tooltip is hovered") y después fuerza
+   pointer-events:all. El costo que advierte es que el tooltip deja de ser
+   clickeable; acá sólo tiene una imagen, sin links. */
+.iwm_map_canvas .google-visualization-tooltip {
+  pointer-events: none;
+}

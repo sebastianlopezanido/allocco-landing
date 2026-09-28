@@ -1,0 +1,14 @@
+/* Ajustes que en el sitio original hacía el JavaScript del tema y que acá se
+   resuelven con CSS, ya que ese JS no se porta. */
+
+/* BeTheme le fija a .top_bar_left un ancho inline calculado
+   (container − 156/151/146 según el breakpoint). Sin eso el bloque toma su
+   ancho por contenido, no entra el logo junto al menú, y el menú cae a una
+   segunda línea.
+
+   Los valores salen de medir el sitio vivo. Ojo: el JS calcula contra el ancho
+   de BORDE del container y acá el 100% es el de CONTENIDO, así que van 24px
+   menos (los 12px de padding de cada lado). */
+#Top_bar .top_bar_left { width: calc(100% - 132px); }
+@media only screen and (max-width: 1239px) { #Top_bar .top_bar_left { width: calc(100% - 127px); } }
+@media only screen and (max-width: 959px)  { #Top_bar .top_bar_left { width: calc(100% - 122px); } }

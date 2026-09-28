@@ -1,0 +1,9 @@
+:HL["/theme/allocco.css","style"]
+:HL["/wp-content/plugins/polylang/flags/us.png","image"]
+:HL["/wp-content/plugins/polylang/flags/ar.png","image"]
+:HL["/wp-content/uploads/2020/04/header-home-allocco-2.jpg","image"]
+:HL["https://www.afip.gob.ar/images/f960/DATAWEB.jpg","image"]
+:HL["/wp-content/uploads/2019/09/ALLOCCO-PREPARACION-VI%C3%91ETA-1-HOME-min.jpg","image"]
+:HL["/wp-content/uploads/2019/09/ALLOCCO-PRENSADO-MECANICO-VI%C3%91ETA-2-HOME-min.jpg","image"]
+:HL["/wp-content/uploads/2019/09/ALLOCCO-HARINAS-EXTRACTADAS-VI%C3%91ETA-3-HOME-min.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"en","siblings":[]},"prefetchHints":4208,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"NGBCZ4QnJPrr6QPWVoCVL"}

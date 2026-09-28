@@ -1,0 +1,326 @@
+/*
+Theme Name: 	Betheme Child
+Theme URI: 		http://themes.muffingroup.com/betheme
+Author: 		Muffin group
+Author URI: 	http://muffingroup.com
+Description:	Child Theme for Betheme - Premium WordPress Theme
+Template:		betheme
+Version: 		1.6
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.rs-modal rs-slides .rev-btn.rs-layer.rs-waction {
+	display: none !important;
+}
+
+#Content {
+    background-color: #fff !important;
+}
+
+body:not(.template-slider) #Header {
+	min-height: 60px !important;
+}
+
+/*menu*/
+.top_bar_left.clearfix .menu_wrapper {
+	padding-right: 50px;	
+}
+#Action_bar .social-menu a {
+	font-family: "Roboto" !important;
+	font-weight: 300;
+}
+#Action_bar .social-menu a:hover {
+    color: #999999 !important;
+}
+@media (min-width: 768px) {
+#Action_bar .social-menu {
+    padding-right: 102px !important;
+}
+}
+
+div.tabla img {
+	/*width: 90%;*/
+	background-color: #ffffff;
+}
+
+/*Menu Hector*/
+#Top_bar .menu li:hover {
+    background-color: #F2F2F2;
+}
+#Top_bar .menu > li a::after {
+	width: 0px !important;
+}
+#Top_bar .menu > li.current-menu-item > a, #Top_bar .menu > li.current_page_item > a {
+	color: #f00 !important;
+}
+#Top_bar .menu li ul {
+	width: 1100px;
+	left: -210px !important;
+	padding-left:90px;
+	padding-bottom: 200px;
+	background-image: none !important;
+	font-family: "Roboto" !important;
+	padding-top: 10px;
+}
+
+#Top_bar .menu li ul li {
+    width: 380px !important;
+	font-weight: 300 !important;	
+}
+#Top_bar .menu > li ul li a:hover {
+    color: #026836 !important;
+    background: none !important;
+}
+/*Subitems*/
+#Top_bar .menu li ul li ul {
+	padding-left: 0px;	
+	left: 380px !important;
+	padding-bottom: 0px;
+}
+#Top_bar .menu li > ul {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+/*End Menu Hector*/
+
+h4.ptop6 {
+	padding-top: 6px !important;
+}
+
+/*Headers paginas*/
+@media (max-width: 799px) {
+div.header-paginas {
+	padding: 50px !important;	
+}
+nav#social-menu.menu-idioma-container ul#menu-idioma.social-menu li#menu-item-161 {
+	display: none;
+}
+nav#social-menu.menu-idioma-container ul#menu-idioma.social-menu {
+	text-align: right;
+}
+.lang-item.menu-item a img {
+    width: 20px !important;
+    height: 14px !important;
+}
+}
+
+
+h2 {
+    margin-bottom: 6px !important;
+}
+h3, h4, h5, h6 {
+    margin-bottom: 4px !important;
+}
+
+/*Columnas custom*/
+.one-second.mcb-wrap {
+    width: 60% !important;
+}
+/*.one-fourth.mcb-wrap {
+    width: 20% !important;
+}*/
+.one-fifth.mcb-wrap {
+    width: 15% !important;
+}
+
+
+
+.font400 {
+	font-weight: 400 !important;
+}
+
+
+p {
+    margin: 0 0 11px !important;
+	color: #555555 !important; /*666666*/
+}
+
+strong {
+	color: #666666 !important;	
+}
+
+div.letrachica p{
+    margin: 0 0 5px !important;
+	font-size: 14px;
+}
+div.letrachica h5 {
+	margin-bottom: 5px;
+	font-weight: 400;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*Slider home*/
+.slogan-slider {
+	/*color:#FECE00;*/
+	color: rgb(153, 153, 153);
+	font-size:24px !important;
+	text-align:right !important;
+}
+.texto2-slider {
+	text-align:right !important;
+}
+
+
+.template-slider #rev_slider_7_1 rs-slides rs-slide rs-sbg-px rs-sbg-wrap rs-sbg {
+	background-position: right top !important;	
+}
+
+
+/*Tamaño fuente menu*/
+#Top_bar .menu > li > a span:not(.description) {
+    padding: 0 15px !important;
+	font-size: 14px;
+}
+
+/*Menu*/
+#Action_bar .social-menu .link-contacto a {
+	background-color: #f0f0f0;
+	color: #5f5f5f;
+	padding: 3px;
+}
+
+
+/*Ocultar barra de idioma en menu, ver si lo muestro en sticky*/
+div.top_bar_right div.top_bar_right_wrapper div.wpml-languages.disabled {
+	display: none !important;
+}
+
+/*Linea en menu activo*/
+#Top_bar .menu > li a::after {
+    background: #FECE00 !important;
+}
+
+/****** Grilla de Productos ********/
+div.column.producto-grilla h4 {
+	padding-left: 20px;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}
+div.column.producto-grilla h4 b {
+	font-weight: 400;
+}
+div.column.producto-grilla p {
+	padding-left: 20px;
+	padding-right: 5px;
+	font-size: 0.89em;
+}
+
+div.lateral-izquierdo-grilla-productos {
+	padding: 15px 7px 0px 3px;
+	margin-bottom: 0px;
+
+}
+div.lateral-izquierdo-grilla-productos h3 {
+	font-weight: 400;
+}
+/*.grilla-productos {
+	padding-top: 5px;
+}*/
+
+
+
+.one-fourth .column .column_attr.clearfix p a {
+	color: #555555 !important;
+}
+
+
+
+/*Lista default*/
+ul.listadefault, ul.listadefault ul {
+	color: #555555 !important;
+	margin-left: 20px !important;
+    list-style: none !important;
+    padding:0 !important;
+    margin:0 !important;	
+}
+ul.listadefault li {
+	margin-bottom: 5px !important; /*6*/
+	line-height: 18px !important;
+    padding-left: 0.8em !important; 
+    text-indent: -.7em !important;	
+}
+ul.listadefault li:before {
+    content: "· "  !important; /*· •*/
+}
+ul.listadefault ul li {
+    padding-left: 1.3em !important; 
+}
+ul.listadefault ul li:before {
+    content: " - "  !important; /*· •*/
+}
+
+/********/
+
+
+
+div.subheader-productos, div.subheader-servicios {
+	margin: 0 0% 30px !important;	
+}
+
+/*Botones tipo a*/
+a.button {
+	border-radius:0px !important;	
+	color: #555555 !important;
+	font-size: 0.9em !important;
+	box-shadow: none !important;
+	background-image: none !important;
+}
+div.column.mcb-column.one-second.column_button {
+	width: auto !important;
+}
+a.button.button_size_1 .button_label {
+    padding: 9px 12px !important;
+    font-size: 0.9em !important;
+    color: #444444 !important;
+}
+h3.servicios-home {
+	color: #00ADEE !important;	
+}
+
+/*Footer*/
+
+footer.clearfix .widgets_wrapper {
+	padding-top: 10px !important;
+	padding-bottom: 5px !important;
+}
+
+footer#Footer p {
+	font-size: 0.85em !important;
+	color: #dddddd !important;
+	margin: 0 0 9px !important;
+}
+
+
+/*Contacto*/
+.column_map_basic {
+	padding: 0px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+#form .formulario-contacto {
+	margin-left: 0px !important;
+	margin-right: 0px !important;	
+}
+input[type="submit"] {
+	border-radius: 0px !important;	
+	background-color: #0a6d3c !important;
+	padding: 8px 10px !important;
+}
+.wpcf7-form .column {
+    margin-bottom: 5px !important;
+}
+/**********/
+
+
+/*Oculto características técnicas en mobile*/
+@media (max-width: 800px) {
+	div.caracteristicas-tecnicas, div.menu-izquierda {
+		display: none !important;
+	}
+}
+
+
+

@@ -1,0 +1,44 @@
+/* Imagen de fondo con parallax.
+
+   En el sitio original el JavaScript del tema la escalaba para cubrir su
+   bloque y la desplazaba al hacer scroll. Acá se replica el estado en reposo,
+   que es lo que se ve en la página: la foto cubre el bloque y se recorta.
+
+   Medido en la home del original: la foto ocupa x 415-1329 (915px, que es el
+   ancho de un `.wrap.three-fourth`) por 199px de alto. O sea que cubre su
+   bloque, no la sección entera.
+
+   El desplazamiento al scrollear lo maneja ChromeInteractivo. La foto se
+   dibuja más alta que su bloque (130%) justamente para tener recorrido. */
+.wrap:has(> .mfn-parallax),
+.mcb-wrap-inner:has(> .mfn-parallax) {
+  position: relative;
+  overflow: hidden;
+}
+.mfn-parallax {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 130%;            /* el 30% extra es el recorrido del parallax */
+  max-width: none !important;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+  z-index: 0;
+  will-change: transform;
+}
+/* sin parallax, la foto se centra en su bloque */
+@media (prefers-reduced-motion: reduce) {
+  .mfn-parallax { height: 100%; transform: none !important }
+}
+/* el contenido del bloque va por encima de la foto */
+.wrap:has(> .mfn-parallax) > .mcb-wrap-inner { position: relative; z-index: 2 }
+
+/* El mapa de clientes va centrado en su bloque: el plugin original le daba
+   al gráfico un ancho menor que el contenedor (ver WorldMap.tsx). */
+/* La altura mínima sólo en escritorio: en mobile el bloque es más bajo y
+   forzar 492px agregaba casi 300px de blanco debajo del mapa. */
+@media only screen and (min-width: 1240px) {
+  .iwm_map_canvas { min-height: 492px }
+}

@@ -1,0 +1,78 @@
+{
+  "nota": "El orden de este array es el orden real de carga de WordPress. No reordenar: la cascada depende de él.",
+  "global": [
+    {
+      "nombre": "01-child.css",
+      "origen": "/wp-content/themes/betheme-child/style.css",
+      "kb": 6
+    },
+    {
+      "nombre": "02-base.css",
+      "origen": "/wp-content/themes/betheme/css/base.css",
+      "kb": 56
+    },
+    {
+      "nombre": "03-layout.css",
+      "origen": "/wp-content/themes/betheme/css/layout.css",
+      "kb": 115
+    },
+    {
+      "nombre": "04-shortcodes.css",
+      "origen": "/wp-content/themes/betheme/css/shortcodes.css",
+      "kb": 137
+    },
+    {
+      "nombre": "05-animations.css",
+      "origen": "/wp-content/themes/betheme/assets/animations/animations.min.css",
+      "kb": 57
+    },
+    {
+      "nombre": "06-responsive.css",
+      "origen": "/wp-content/themes/betheme/css/responsive.css",
+      "kb": 54
+    },
+    {
+      "nombre": "07-options.css",
+      "origen": "<style id=mfn-dnmc-style-css> (inline, idéntico en las 52 páginas)",
+      "kb": 55
+    }
+  ],
+  "soloClientes": [
+    {
+      "nombre": "map-01-responsive.css",
+      "origen": "/wp-content/plugins/interactive-world-maps/includes/responsive.css",
+      "kb": 1
+    },
+    {
+      "nombre": "map-02-styles.css",
+      "origen": "/wp-content/plugins/interactive-world-maps/styles.css",
+      "kb": 6
+    }
+  ],
+  "descartadas": [
+    {
+      "hoja": "wp-block-library",
+      "motivo": "define 261 clases, se usan 2 (aligncenter, alignright) y shortcodes.css ya las define"
+    },
+    {
+      "hoja": "dashicons",
+      "motivo": "define 353 clases, se usan 0 (son iconos del panel de WordPress)"
+    },
+    {
+      "hoja": "jquery-ui",
+      "motivo": "define 227 clases, se usan 0: no hay ningún tabs ni accordion instanciado"
+    },
+    {
+      "hoja": "jplayer",
+      "motivo": "reproductor de audio, no hay audio en el sitio"
+    },
+    {
+      "hoja": "rs6 (RevSlider)",
+      "motivo": "los banners se rehacen como componente propio"
+    },
+    {
+      "hoja": "contact-form-7",
+      "motivo": "el formulario se reemplaza por mailto + WhatsApp"
+    }
+  ]
+}

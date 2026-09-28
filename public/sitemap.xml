@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://allocco.com.ar/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/clientes/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/clientes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/clients/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/clientes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/contacto/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/contacto/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/beater-sifter/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/beater-sifter/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/beater/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/beater/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/clients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/clients/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/clientes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/clientes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/contacto/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/cracking-mill/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/cracking-mill/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/quebrador/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/quebrador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/dehuller/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/dehuller/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/descascaradora-de-impacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/descascaradora-de-impacto/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/dryer-cooler/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/dryer-cooler/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-enfriador/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-enfriador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/expanded-dryer-cooler/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/expanded-dryer-cooler/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-enfriador-de-expandido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-enfriador-de-expandido/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/expander/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/expander/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/expander/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/expander/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/extract-conformer-press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/extract-conformer-press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa-extracto-conformadora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa-extracto-conformadora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/extruder/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/extruder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/extrusora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/extrusora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/flaker/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/flaker/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/laminador/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/laminador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/granulator/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/granulator/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/granuladora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/granuladora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/industrial-services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/industrial-services/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/servicios-industriales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/servicios-industriales/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/pre-pressing-press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/pre-pressing-press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa-pre-prensado/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa-pre-prensado/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/products/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/rotary-cooker/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/rotary-cooker/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/cocinador-rotativo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/cocinador-rotativo/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/rotary-dryer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/rotary-dryer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-rotativo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-rotativo/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/screening-tank/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/screening-tank/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/borrero-decantador/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/borrero-decantador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/servicios/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/spare-parts/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/spare-parts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/repuestos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/repuestos/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/en/vertical-cooker/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/vertical-cooker/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/cocinador-vertical/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/cocinador-vertical/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/beater/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/beater/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/beater-sifter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/beater/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/borrero-decantador/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/borrero-decantador/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/screening-tank/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/borrero-decantador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/cocinador-rotativo/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/cocinador-rotativo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/rotary-cooker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/cocinador-rotativo/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/cocinador-vertical/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/cocinador-vertical/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/vertical-cooker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/cocinador-vertical/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/descascaradora-de-impacto/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/descascaradora-de-impacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/dehuller/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/descascaradora-de-impacto/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/expander/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/expander/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/expander/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/expander/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/extrusora/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/extrusora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/extruder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/extrusora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/granuladora/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/granuladora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/granulator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/granuladora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/laminador/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/laminador/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/flaker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/laminador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/prensa-extracto-conformadora/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa-extracto-conformadora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/extract-conformer-press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa-extracto-conformadora/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/prensa-pre-prensado/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa-pre-prensado/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/pre-pressing-press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa-pre-prensado/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/prensa/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/prensa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/prensa/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/quebrador/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/quebrador/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/cracking-mill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/quebrador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/secador-enfriador-de-expandido/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-enfriador-de-expandido/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/expanded-dryer-cooler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-enfriador-de-expandido/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/secador-enfriador/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-enfriador/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/dryer-cooler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-enfriador/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/productos/secador-rotativo/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/productos/secador-rotativo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/rotary-dryer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/productos/secador-rotativo/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/repuestos/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/repuestos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/spare-parts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/repuestos/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/servicios-industriales/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/servicios-industriales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/industrial-services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/servicios-industriales/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allocco.com.ar/servicios/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://allocco.com.ar/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allocco.com.ar/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allocco.com.ar/servicios/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
