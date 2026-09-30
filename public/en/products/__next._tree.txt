@@ -1,7 +1,5 @@
 :HL["/theme/allocco.css","style"]
 :HL["/wp-content/plugins/polylang/flags/us.png","image"]
 :HL["/wp-content/plugins/polylang/flags/ar.png","image"]
-:HL["/wp-content/uploads/2020/04/header-productos-allocco.jpg","image"]
-:HL["https://www.afip.gob.ar/images/f960/DATAWEB.jpg","image"]
 :HL["/wp-content/uploads/2019/08/COCINADOR-VERTICAL.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"en/products","siblings":[]},"prefetchHints":4208,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"NGBCZ4QnJPrr6QPWVoCVL"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"en/products","siblings":[]},"prefetchHints":4208,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"HwQNO6A0zSU-fsUmKhitp"}
